@@ -51,7 +51,7 @@ const Navbar = () => {
         </div>
 
         <ul
-          className={`flex flex-col items-center md:flex-row gap-0 md:gap-8  md:pb-0 pb-12 absolute top-0 left-0 md:static bg-main-color md:bg-bg-color md:dark:bg-black-color w-full md:w-auto text-center transition-all duration-300 ease-in-out ${
+          className={`flex flex-col items-center md:flex-row gap-0 md:gap-8  md:pb-0 pb-12 absolute top-0 left-0 md:static bg-main-color md:bg-bg-color md:dark:bg-black-color w-full md:w-auto text-center transition-all duration-300 ease-in-out md:transition-none ${
             menuOpen ? "top-0" : "top-[-490px]"
           }`}
         >
