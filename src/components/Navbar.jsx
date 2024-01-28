@@ -63,6 +63,7 @@ const Navbar = () => {
             <a
               className="text-black-color dark:text-grey-color-alt  hover:text-bg-color md:hover:text-main-color font-medium"
               href="#home"
+              onClick={() => setMenuOpen(false)}
             >
               Home
             </a>
@@ -71,6 +72,7 @@ const Navbar = () => {
             <a
               className="text-black-color dark:text-grey-color-alt hover:text-bg-color md:hover:text-main-color font-medium"
               href="#about"
+              onClick={() => setMenuOpen(false)}
             >
               About Us
             </a>
@@ -79,6 +81,7 @@ const Navbar = () => {
             <a
               className="text-black-color dark:text-grey-color-alt hover:text-bg-color md:hover:text-main-color font-medium"
               href="#offer"
+              onClick={() => setMenuOpen(false)}
             >
               Offer
             </a>
@@ -87,6 +90,7 @@ const Navbar = () => {
             <a
               className="text-black-color dark:text-grey-color-alt hover:text-bg-color md:hover:text-main-color font-medium"
               href="#community"
+              onClick={() => setMenuOpen(false)}
             >
               Community
             </a>
